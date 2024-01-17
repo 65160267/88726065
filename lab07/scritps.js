@@ -31,7 +31,7 @@ function toggleComplete(index) {
     todos[index].completed = !todos[index].completed;
     renderTodoList();
 }
-
+// ฟังก์ชัน deleteTodo() ลบรายการงานที่ทำเสร็จแล้วออกจากรายการงาน
 
 // แสดงรายการ Todo บนหน้าเว็บ
 function renderTodoList() {
